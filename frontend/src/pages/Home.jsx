@@ -16,7 +16,7 @@ export default function Home() {
   const [mode, setMode] = useState('add');
   const [selectedNoteId, setSelectedNoteId] = useState('');
 
-  const apiUrl = 'http://localhost:5000/note';
+  const apiUrl = 'https://open-ended-assessment-unwir-backend.onrender.com/note';
 
   useEffect(() => {
     axios.get(apiUrl)
